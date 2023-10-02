@@ -11,9 +11,9 @@ terraform {
   }
 
     backend "s3" {
-      bucket         = "app-static-site-ec2-tf-timao"
+      bucket         = "app-static-site-ec2-tf-bia"
       key            = "terraform.tfstate"
-      dynamodb_table = "app-static-site-ec2-tf-timao"
+      dynamodb_table = "app-static-site-ec2-tf-bia"
       region         = "us-east-1"
     }
 
